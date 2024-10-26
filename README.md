@@ -1,4 +1,4 @@
-# cfnat-hkg
+# cfnat-hkg-Android
 
 termux:https://github.com/termux/termux-app/releases
 
