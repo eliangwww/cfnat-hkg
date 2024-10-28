@@ -225,7 +225,7 @@ install_cfnat(){
     # 检测 $cfnat_file/ips-v4.txt 是否存在
     if [ ! -f ${cfnat_file}/ips-v4.txt ]; then
         # 如果不存在，则使用 curl 下载文件
-        curl -k -SL https://raw.cfip.nyc.mn/eliangwww/cfnat-hkg/refs/heads/main/ips-v4.txt?token=12123 -o $cfnat_file/ips-v4.txt
+        curl -k -SL https://raw.cmliussss.com/cfnat/ips-v4.txt -o $cfnat_file/ips-v4.txt
         echo "ips-v4.txt 下载完成。"
     else
         echo "ips-v4.txt 准备就绪。"
